@@ -1,0 +1,35 @@
+.tw-bs input[type=checkbox] {
+	width:15px !important;
+	height:15px !important;
+}
+.tw-bs input[type=radio]{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 10px !important;
+}
+.data_output{
+	padding:20px;
+	background:#fff;
+	border:1px solid #ccc;
+}
+.table_container{
+	position:relative;
+}
+.loader{
+	position:fixed;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	top:0px;
+	background:rgba( 255,255,255,0.5 );
+	background-image:url( loader.gif );
+	background-position:50% 50%;
+	background-repeat:no-repeat;
+	z-index: 100000;
+}
+.is_archived{
+	display: none;
+}
+.is_archived.archived_visible{
+	display:block;
+}
